@@ -194,3 +194,20 @@ class Player {
 Creating player John!
 Hello -!
 
+### 6. Access Modifiers  In C#
+
+#### Note:-      
+| Access Modifier | property    |   |
+| ------------- |:-------------:| :-------------:|
+| public      | There are no restrictions on accessing public members. |  |
+| private      | Access is limited to within the class definition. This is the default access modifier type if none is formally specified      |    |
+| protected | Access is limited to within the class definition and any class that inherits from the class      |     |
+| internal      | Access is limited exclusively to classes defined within the current project assembly |  |
+| protected internal      | Access is limited to the current assembly and types derived from the containing class. All members in the current project and all members in the derived class can access the variables      |    |
+| private protected | Access is limited to the containing class or types derived from the containing class within the current assembly      |     |
+
+
+
+
+
+
